@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qtattitude3d"
+version = "0.1.0"
+authors = [
+    { name = "Ahmet", email = "ahmet@example.com" },
+]
+description = "PyQt5 embedded 3D attitude and model visualization using PyVista/VTK"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["pyqt5", "3d", "visualization", "imu", "attitude", "vtk", "pyvista"]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics :: 3D Rendering",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "PyQt5",
+    "pyvista",
+    "vtk",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tayfurcnr/qtattitude3d"
+
+[tool.setuptools.packages.find]
+include = ["qtattitude3d*"]
+
+[project.scripts]
+qtattitude3d-demo = "qtattitude3d.demo.launcher:main"

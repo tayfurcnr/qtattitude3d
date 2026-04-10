@@ -1,0 +1,2 @@
+recursive-include qtattitude3d/assets *
+include README.md
