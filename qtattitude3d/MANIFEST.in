@@ -1,2 +1,5 @@
-recursive-include qtattitude3d/assets *
 include README.md
+include LICENSE
+recursive-include qtattitude3d *
+global-exclude __pycache__
+global-exclude *.py[cod]

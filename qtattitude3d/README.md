@@ -1,14 +1,17 @@
 # qtattitude3d
 
-`qtattitude3d`, PyQt5 içine gömülebilen, PyVista/VTK tabanlı bir 3B duruş ve model görüntüleme paketidir.  
-Temel amacı, bir `OBJ + MTL` modelini yükleyip bunu yer istasyonu, telemetri paneli veya benzeri masaüstü arayüzlerde yeniden kullanılabilir bir widget olarak sunmaktır.
+[![PyPI version](https://img.shields.io/pypi/v/qtattitude3d-kairos)](https://pypi.org/project/qtattitude3d-kairos/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+
+`qtattitude3d`, PyQt5 uygulamaları için optimize edilmiş, PyVista ve VTK tabanlı yüksek performanslı bir 3B yönelim (attitude) görselleştirme kütüphanesidir. Yer istasyonları ve telemetri panelleri için modern bir çözüm sunar.
 
 ## Kurulum
 
-### PyPI üzerinden (Yayına girdikten sonra)
+### Hızlı Kurulum (PyPI)
 
 ```bash
-pip install qtattitude3d
+pip install qtattitude3d-kairos
 ```
 
 ### Kaynak Koddan Kurulum

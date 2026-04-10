@@ -3,16 +3,16 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "qtattitude3d"
+name = "qtattitude3d-kairos"
 version = "0.1.0"
 authors = [
     { name = "Ahmet", email = "ahmet@example.com" },
 ]
-description = "PyQt5 embedded 3D attitude and model visualization using PyVista/VTK"
+description = "A high-performance 3D Attitude Indicator and Model Visualizer for PyQt5 applications."
 readme = "README.md"
 requires-python = ">=3.7"
 keywords = ["pyqt5", "3d", "visualization", "imu", "attitude", "vtk", "pyvista"]
-license = { text = "MIT" }
+license = { file = "LICENSE" }
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -30,7 +30,8 @@ dependencies = [
 "Homepage" = "https://github.com/tayfurcnr/qtattitude3d"
 
 [tool.setuptools.packages.find]
-include = ["qtattitude3d*"]
+include = ["qtattitude3d"]
+namespaces = false
 
 [project.scripts]
 qtattitude3d-demo = "qtattitude3d.demo.launcher:main"
