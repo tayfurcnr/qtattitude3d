@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "qtattitude3d-kairos"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
-    { name = "Ahmet", email = "ahmet@example.com" },
+    { name = "TAYFUR", email = "tayfurcnr@gmail.com" },
 ]
 description = "A high-performance 3D Attitude Indicator and Model Visualizer for PyQt5 applications."
 readme = "README.md"
